@@ -1,0 +1,14 @@
+
+//rem
+$baseFontSize:14;
+@function pxToRem($px) {
+  @return $px / $baseFontSize * 1rem;
+}
+
+@function remToPx($rem) {
+  @return $rem * $baseFontSize * 1px;
+}
+
+// 主题色
+$baseColor:#468df7;
+

@@ -1,0 +1,48 @@
+.tablePaging {
+  height: 52px;
+  text-align: right;
+  padding: 10px;
+}
+
+.formSearch {
+  overflow: hidden;
+  z-index: 10;
+  margin-bottom: 5px;
+  .filter-container,
+  .filter-container > div,
+  > form {
+    background: white;
+    padding: 5px 10px;
+    // margin-bottom: 5px;
+  }
+  .filter-container {
+    display: flex;
+    padding: 5px 0px;
+    // border-radius: 5px;
+  }
+}
+
+.tableContent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+// .dialog {
+//   @media screen and (min-width: $sm) {
+//     /deep/ .el-dialog {
+//       width: 50% !important;
+//     }
+//   }
+//   @media screen and (min-width: $md) {
+//     /deep/ .el-dialog {
+//       width: 30% !important;
+//     }
+//   }
+
+//   /deep/ .form-body {
+//     width: 80%;
+//     margin: 0px auto;
+//   }
+// }
