@@ -8,8 +8,8 @@
 
 由于本项目是全栈项目，所以在启动node服务器之前，需要安装mysql数据库，然后把server/sql/nau_exam.sql文件导入到本地的数据库中，并对server/db.js中的数据库配置项进行修改。其中nau_exam.sql里面目前存放的是一些测试数据。
 
-项目代码文件分前端部分和服务端部分。前端部分用到了如今国内很流行的Vue技术栈，终端在根目录下执行npm run dev命令后，就可以在src目录下修改项目前端源代码，在http://localhost:8085/地址下可以实时看到效果。
-后端部分使用node技术来实现的，终端在根目录下执行npm run server命令后,就可以在浏览器上访问http://localhost:3000/看到整个完整项目。其中server/dist/目录下的文件就是前端代码执行npm run build命令打包后的前端代码文件。
+项目代码文件分前端部分和服务端部分。前端部分用到了如今国内很流行的Vue技术栈，终端在根目录下执行npm run dev命令后，就可以在src目录下修改项目前端源代码，在 ```http://localhost:8085/``` 地址下可以实时看到效果。
+后端部分使用node技术来实现的，终端在根目录下执行npm run server命令后,就可以在浏览器上访问 ```http://localhost:3000/``` 看到整个完整项目。其中server/dist/目录下的文件就是前端代码执行npm run build命令打包后的前端代码文件。
 
 ##用户角色功能模块图
 ![image](src/assets/images/project/角色功能模块图.png)
