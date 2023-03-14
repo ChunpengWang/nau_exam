@@ -39,7 +39,7 @@ node.js + express4 + multer + mysql-queries + mysql + node-xlsx + node-stream-zi
 ## 目录结构介绍 ##
     |-- public                           // 静态资源文件目录
     |   |-- .favicon.ico                 // 网站logo图标
-    |   |-- components                   // 入口html文件
+    |   |-- index.html                   // 入口html文件
 	|-- server                           // 服务端代码目录
 	|   |-- apis                         // 存放相关接口API目录
 	|   |-- config                       // 存放生成token的私钥和公钥
